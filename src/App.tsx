@@ -7,6 +7,7 @@ function App() {
   return (
     <Auth0Provider
       authorizationParams={{
+        audience:"https://api.zapehr.com",
         redirect_uri: "http://localhost:5173",
       }}
       clientId="zLrwzCdr2KtEeaJuEM92FzZyrJYLaPJC"
